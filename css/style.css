@@ -1,0 +1,36 @@
+body {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 0px;
+  }
+}
+section {
+  min-height: 150px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+}
+
+ul.navbar-nav li.nav-item {
+  margin-right: 50px;
+}
+
+h4 {
+  margin-bottom: 15px;
+}
+
+#header-img {
+  max-width: 50px;
+}
+
+#howItWorks {
+  padding-bottom: 30px;
+}
+
+#pricing p {
+  display: flex;
+}
